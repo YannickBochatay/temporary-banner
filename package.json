@@ -1,0 +1,24 @@
+{
+  "name": "temporary-banner",
+  "version": "1.0.0",
+  "description": "Web component to display a banner during a period",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannickBochatay/temporary-banner.git"
+  },
+  "keywords": [
+    "webcomponent",
+    "banner",
+    "period"
+  ],
+  "author": "Yannick Bochatay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannickBochatay/temporary-banner/issues"
+  },
+  "homepage": "https://github.com/YannickBochatay/temporary-banner#readme"
+}
