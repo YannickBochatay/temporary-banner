@@ -5,6 +5,13 @@ Web component for displaying a banner for a specified period
 
 http://yannickbochatay.github.io/temporary-banner
 
+## Installation
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/temporary-banner" type="module"></script>
+```
+
+
 ## Example
 
 ```html
