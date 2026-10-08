@@ -1,6 +1,6 @@
 {
   "name": "temporary-banner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web component to display a banner during a period",
   "main": "index.js",
   "scripts": {

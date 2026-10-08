@@ -54,6 +54,7 @@ class TemporaryBanner extends HTMLElement {
 
   static observedAttributes = ["displayPeriod", "start", "end"]
 
+  #defaultDelay = 300_000
   #storageName = "bannerClosed"
   #interval
 
@@ -88,7 +89,7 @@ class TemporaryBanner extends HTMLElement {
   }
 
   get delay() {
-    return this.getAttribute("delay") ?? 60_000
+    return this.getAttribute("delay") ?? this.#defaultDelay
   }
 
   set delay(num) {
@@ -123,7 +124,6 @@ class TemporaryBanner extends HTMLElement {
   }
 
   #updateDisplay() {
-    console.log(this.active, this.checkVisibility(), this.closed, this.period)
     if (this.active) {
       if (!this.closed) this.#show()
     } else {
